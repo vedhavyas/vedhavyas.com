@@ -22,3 +22,13 @@ git push origin master
 
 # Come Back up to the Project Root
 cd ..
+
+# add hugo changes
+git add ./
+
+# commit and push hugo changes
+git commit -m "$msg"
+
+git push origin master
+
+echo -e "\033[0;32mDeployed updates to GitHub.\033[0m"
