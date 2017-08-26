@@ -1,0 +1,7 @@
+[submodule "themes/themes/minimal"]
+	path = themes/themes/minimal
+	url = https://github.com/calintat/minimal.git
+[submodule "public"]
+	path = public
+	url = git@github.com:vedhavyas/vedhavyas.github.io.git
+	branch = master
